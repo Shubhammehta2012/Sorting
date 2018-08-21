@@ -1,10 +1,4 @@
 
-# coding: utf-8
-
-# # Quick Sort
-
-# In[2]:
-
 
 def partition(array, low, high):
     i = low - 1
@@ -26,14 +20,9 @@ def quick_sort(array, low, high):
         quick_sort(array, temp + 1, high)
 
 
-# In[4]:
-
-
-# elements are already sorted
 array = [i for i in range(1, 20)]
 
 print(array)
-# 20 ALREADY sorted elements need 18 iterations approx = n
 quick_sort(array, 0, len(array) - 1)
 
 print(array)
