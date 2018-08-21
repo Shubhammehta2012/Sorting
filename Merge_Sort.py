@@ -1,10 +1,4 @@
 
-# coding: utf-8
-
-# # Merge Sort
-
-# In[1]:
-
 
 def merge_sort(array):
     if len(array) < 2:
@@ -33,13 +27,8 @@ def merge(left, right):
     return result
 
 
-# In[2]:
-
-
-# elements are already sorted
 array = [i for i in range(1, 20)]
 
 print(array)
-# 20 ALREADY sorted elements need 18 iterations approx = n
 print(merge_sort(array))
 
